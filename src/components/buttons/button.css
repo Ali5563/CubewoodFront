@@ -1,0 +1,34 @@
+.button_primary {
+    display: inline-flex;
+    padding: 0.9375rem 2.5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.3125rem;
+    background: var(--primary-color, #FFA62B);
+}
+
+@media (max-width: 576px) {
+    .button_primary {
+        display: inline-flex;
+        padding: 0.625rem 1.25rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 0.3125rem;
+        background: var(--primary-color, #FFA62B);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .button_primary {
+        display: inline-flex;
+        padding: 0.9375rem 2.5rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 0.3125rem;
+        background: var(--primary-color, #FFA62B);
+    }
+}
