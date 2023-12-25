@@ -1,9 +1,13 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import "./home.css";
 import Button from "../../components/buttons/button";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 const home = () => {
+  
+
   return (
     <div className="home_page">
       <section className="home_header">

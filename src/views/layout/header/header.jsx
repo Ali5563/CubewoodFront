@@ -21,7 +21,7 @@ const header = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link>
+                <Link to="/shop">
                   Shop{" "}
                   {location.pathname == "/" ? (
                     <svg

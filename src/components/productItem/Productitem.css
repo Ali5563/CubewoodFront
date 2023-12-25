@@ -1,0 +1,109 @@
+.product_item {
+  display: flex;
+  width: 238px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.product_item .thumb {
+  width: 235px;
+  height: 300px;
+}
+.product_item .thumb .product-cover-5 {
+  width: 235px;
+  height: 300px;
+  flex-shrink: 0;
+}
+.product_item .thumb .product-actions {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.product_item .thumb .product-actions .like {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 44.786px;
+  background: var(--light-background-color, #fff);
+}
+.product_item .thumb .product-actions .like svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.product_item .thumb .product-actions .basket {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 44.786px;
+  background: var(--light-background-color, #fff);
+}
+.product_item .thumb .product-actions .basket svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.product_item .content-card {
+  width: 209px;
+  height: 140px;
+}
+.product_item .content-card h4 {
+  color: var(--text-color, #252b42);
+  font-family: Spectral;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+}
+.product_item .content-card .prices {
+  display: inline-flex;
+  padding: 0px 3px;
+  align-items: flex-start;
+  gap: 5px;
+}
+.product_item .content-card .prices h5 {
+  color: var(--secondary-color-1, #00a1c1);
+  text-align: center;
+  font-family: Spectral;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+.product_item .content-card .small_full_stars {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.product_item .content-card .small_full_stars .stars {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+}
+.product_item .content-card .small_full_stars .stars svg {
+  width: 12px;
+  height: 12px;
+}
+.product_item .content-card h6 {
+  color: var(--second-text-color, #737373);
+  font-family: Spectral;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+.product_item .content-card .product-colors {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6.077px;
+}/*# sourceMappingURL=Productitem.css.map */
